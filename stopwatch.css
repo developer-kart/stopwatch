@@ -1,0 +1,50 @@
+body{
+    font-family: monospace;
+    background-image: url(avengers.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.sample{
+    background-color:#00000070;;
+    text-align: center;
+    color: chartreuse;
+    padding: 20px;
+    border-radius: 50px;
+    letter-spacing: 4px;
+    cursor: pointer;
+
+}
+button{
+    background-color: azure;
+    color: green;
+    border: 5px double rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: monospace;
+    width: 200px;
+
+}
+.sample:hover{
+    background-color: chartreuse;
+    color: darkgreen;
+
+}
+button:hover{
+    background-color: chartreuse;
+    color: darkgreen;
+}
+h1{
+    font-size: 40px;
+    color: darkgreen;
+
+}
+p{
+    font-size: 40px;
+
+}
